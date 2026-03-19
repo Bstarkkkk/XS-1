@@ -2,7 +2,7 @@ name: 🪄 XServer自动签到
 
 on:
   schedule:
-    - cron: "0 0 */3 * *"   # 每3天自动执行
+    - cron: "42 4 */3 * *"   # 每3天自动执行
   workflow_dispatch:
 
 jobs:
